@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,.87);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    height: 60px;
+    align-items: center;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-right .user {
+    width: 35px;
+    border-radius: 50px;
+}
+
+a {
+    margin-left: 16px;
+}
+
+section {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.search-box {
+    width: 600px;
+    position: relative;
+}
+
+.search-box input {
+    position: absolute;
+    top: -20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    padding: 3px;
+    outline: none;
+    padding-inline-start: 42px;
+}
+
+.search-box img {
+    position: absolute;
+    width: 15px;
+    top: -10px;
+    right: 15px;
+}
+
+#search {
+    position: absolute;
+    color: #ccc;
+    top: -10px;
+    left: 15px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons button {
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    background-color: #F8F9FA;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+.languages {
+    width: 350px;
+    margin-top: 16px;
+    color: #4d5156;
+    font-size: 14px;
+}
+
+.languages a {
+    color: blue;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #F2F2F2;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer div {
+    display: flex;
+    padding: 8px;
+}
+
+footer div a {
+    margin-right: 16px;
+}
+
+footer :last-child {
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    background-color: red;
+}
